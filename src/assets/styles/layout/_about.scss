@@ -1,0 +1,27 @@
+@import './../modules/_variables.scss';
+.about__container{
+  margin: 16.5%;
+}
+
+.text__container{
+  max-width: 900px;
+  margin-left: 180px;
+  p{
+    font-size: 36px;
+  }
+}
+
+
+.learn__more{
+  width: 220px;
+  line-height: 40px;
+  margin-top: 20px;
+  color:#fff;
+  background-color:$yellow;
+  border-radius: 20px;
+  text-align: center;
+  p{
+
+    font-size: 18px;
+  }
+}

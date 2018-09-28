@@ -1,0 +1,23 @@
+@import "./layout/_home.scss";
+@import "./layout/_nav.scss";
+@import "./layout/_about.scss";
+@import "./layout/_footer.scss";
+@import "./layout/_aboutUs.scss";
+@import "./modules/normalize.scss";
+@import "./modules/_variables.scss";
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+// .app{
+//   width: 100vw;
+//   height: 100vh;
+// }
+// .root{
+//   height: 100%;
+// }
