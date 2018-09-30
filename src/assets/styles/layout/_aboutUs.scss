@@ -55,11 +55,12 @@
     right: 0;
     bottom: 0;
     z-index: -20;
+    background-repeat: repeat-x;
     /* background-position: 100% 38%; */
  }
   }.team__card__container{
     width: 550px;
-    height: 505px;
+    height: 650px;
     display: flex;
     position: relative;
     flex-wrap: wrap;
@@ -89,8 +90,30 @@
       position: relative;
       align-items: flex-end;
       .card__items{
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: -47px;
+        .card__absolute{
+         
+        }
+        .name-container{
+         
+          p{
+            text-align: center;
+            font-size: 16px;
+          }
+        }
+        .icon__container{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin: 0 auto;
+          width: 50px;  
+        }
       
-     
+        
        
         img{
           
@@ -101,5 +124,39 @@
       
     }
   }
+  }
+}
+@media screen and (max-width: 1290px){
+  .about__us__container .about__us__wrapper{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    height: 1400px;
+  }
+  .right__bg{
+    height: 1400px;
+  }
+  .about__us__container .team__card__container .card__container .card__row{
+    
+  }
+  .about__us__container .about__us__wrapper .title__container{
+    text-align: center;
+  }
+  .nav__container{
+    display: none;
+  }
+  .footer__wrapper{
+    display: none;
+  }
+  .about__us__container .team__card__container{
+    max-width: 550px;
+    width: 100%;
+  }
+}
+  
+
+@media screen and (max-width:650px){
+  .about__us__container .team__card__container .card__container .card__row{
+   max-width: 320px; 
   }
 }

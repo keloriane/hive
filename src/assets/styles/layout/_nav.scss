@@ -1,9 +1,9 @@
 @import './../modules/_variables.scss';
 .nav__container{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
-  max-width: 1255px;
+
   margin: 0 auto;
 
 
@@ -53,4 +53,7 @@
     background-color: $yellow;
     color: #fff;
   }
+}
+@media screen and (max-width:1540px){
+ 
 }

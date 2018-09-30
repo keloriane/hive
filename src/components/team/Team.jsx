@@ -20,7 +20,17 @@ import mathias from './../../assets/img/mathias.png'
 import mathiasHover from './../../assets/img/matiasHover.png'
 import jimmy from './../../assets/img/Jimmy.png'
 import jimmyHover from './../../assets/img/jimmyHover.png'
+import aymeric from './../../assets/img/aymeric.png'
+import aymericHover from './../../assets/img/aymericHover.png'
+import nico from './../../assets/img/nico.png'
+import nicoHover from './../../assets/img/nicoHover.png'
+import hanes from './../../assets/img/Hannes.png'
+import hanesHover from './../../assets/img/hanesHover.png'
 import Nav from '../layout/nav/Nav';
+
+
+import linkedin from './../../assets/img/linkedin_icon.png'
+import mail from './../../assets/img/mail.svg'
 
     
 export default class Team extends Component {
@@ -109,38 +119,149 @@ export default class Team extends Component {
            <div className="card__row">
             <div className="card__items">
                 <HoverImage src={quentin} alt="" hoverSrc={quentinHover}/>
+                <div className="icon__container">
+                  <div className="mail"><a href=""><img src={mail} alt=""/></a></div>
+                  <div className="linkedin"><a href=""><img src={linkedin} alt=""/></a></div>
+                </div>
+                <div className="name-container">
+                <p>Quentin</p>
+                <p>Degroux</p>
+                </div>
             </div>
             <div className="card__items">
                 <HoverImage src={guillaume} alt=""hoverSrc={guillaumeHover}/>
+                <div className="icon__container">
+                  <div className="mail"><a href=""><img src={mail} alt=""/></a></div>
+                  <div className="linkedin"><a href=""><img src={linkedin} alt=""/></a></div>
+                </div>
+                <div className="name-container">
+                <p>Guillaume</p>
+                <p>Veldekens</p>
+                </div>
             </div>
             <div className="card__items">
                 <HoverImage src={sam} alt="" hoverSrc={samHover}/>
+                <div className="icon__container">
+                  <div className="mail"><a href=""><img src={mail} alt=""/></a></div>
+                  <div className="linkedin"><a href=""><img src={linkedin} alt=""/></a></div>
+                </div>
+                <div className="name-container">
+                <p>Samuel</p>
+                <p>Bermans</p>
+                </div>
             </div>
             
            </div>      
             <div className="card__row">
             <div className="card__items">
                 <HoverImage src={jimmy} alt="" hoverSrc={jimmyHover}/>
+                <div className="icon__container">
+                  <div className="mail"><a href=""><img src={mail} alt=""/></a></div>
+                  <div className="linkedin"><a href=""><img src={linkedin} alt=""/></a></div>
+                </div>
+                <div className="name-container">
+                <p>Jimmy</p>
+                <p>Goossens</p>
+                </div>
             </div>
             <div className="card__items">
                 <HoverImage src={cash} alt="" hoverSrc={cashHover}/>
+                <div className="icon__container">
+                  <div className="mail"><a href=""><img src={mail} alt=""/></a></div>
+                  <div className="linkedin"><a href=""><img src={linkedin} alt=""/></a></div>
+                </div>
+                <div className="name-container">
+                <p>Cassandre</p>
+                <p>Vandepute</p>
+                </div>
             </div>
             <div className="card__items">
                 <HoverImage src={marin} alt="" hoverSrc={marinHover}/>
+                <div className="icon__container">
+                  <div className="mail"><a href=""><img src={mail} alt=""/></a></div>
+                  <div className="linkedin"><a href=""><img src={linkedin} alt=""/></a></div>
+                </div>
+                <div className="name-container">
+                <p>Marin</p>
+                <p>Stas</p>
+                </div>
             </div>
             </div>
             <div className="card__row">
             <div className="card__items">
                 <HoverImage src={pe} alt="" hoverSrc={peHover}/>
+                <div className="icon__container">
+                  <div className="mail"><a href=""><img src={mail} alt=""/></a></div>
+                  <div className="linkedin"><a href=""><img src={linkedin} alt=""/></a></div>
+                </div>
+                <div className="name-container">
+                <p>Paul-Emanuel</p>
+                <p>Tasiaux</p>
+                </div>
             </div>
             <div className="card__items">
                 <HoverImage src={db} alt="" hoverSrc={dbHover}/>
+                <div className="icon__container">
+                  <div className="mail"><a href=""><img src={mail} alt=""/></a></div>
+                  <div className="linkedin"><a href=""><img src={linkedin} alt=""/></a></div>
+                </div>
+                <div className="name-container">
+                <p>Antoine</p>
+                <p>Debrabandere</p>
+                </div>
             </div>
             <div className="card__items">
-                <HoverImage src={sam} alt="" hoverSrc={samHover}/>
+              
+                <HoverImage src={mathias} alt="" hoverSrc={mathiasHover}/>
+                <div className="icon__container">
+                  <div className="mail"><a href=""><img src={mail} alt=""/></a></div>
+                  <div className="linkedin"><a href=""><img src={linkedin} alt=""/></a></div>
+                </div>
+                <div className="name-container">
+                <p>Mathias</p>
+                <p>Gross</p>
+                </div>
             </div>
             
             </div>
+            <div className="card__row">
+            <div className="card__items">
+                <HoverImage src={aymeric} alt="" hoverSrc={aymericHover}/>
+                <div className="icon__container">
+                  <div className="mail"><a href=""><img src={mail} alt=""/></a></div>
+                  <div className="linkedin"><a href=""><img src={linkedin} alt=""/></a></div>
+                </div>
+                <div className="name-container">
+                <p>Aymeric</p>
+                <p>Tordeur</p>
+                </div>
+            </div>
+            <div className="card__items">
+                <HoverImage src={nico} alt="" hoverSrc={nicoHover}/>
+                <div className="icon__container">
+                  <div className="mail"><a href=""><img src={mail} alt=""/></a></div>
+                  <div className="linkedin"><a href=""><img src={linkedin} alt=""/></a></div>
+                </div>
+                <div className="name-container">
+                <p>Nicolas</p>
+                <p>Claise</p>
+                </div>
+            </div>
+            <div className="card__items">
+              
+                <HoverImage src={hanes} alt="" hoverSrc={hanesHover}/>
+                <div className="icon__container">
+                  <div className="mail"><a href=""><img src={mail} alt=""/></a></div>
+                  <div className="linkedin"><a href=""><img src={linkedin} alt=""/></a></div>
+                </div>
+                <div className="name-container">
+                <p>Hannes</p>
+                <p>Hardeman</p>
+                </div>
+            </div>
+            
+            </div>
+            
             </div>
          </div>
          </div>
