@@ -10,7 +10,9 @@
   width: 100%;
   height: 100vh;
   background-image: url("./assets/img/lightPenta.svg");
-  background-size: cover; }
+  background-size: cover;
+  overflow-y: hidden;
+  display: flex; }
 
 .home__container {
   position: relative; }
@@ -76,6 +78,9 @@
   .learn__more p {
     font-size: 18px; }
 
+.more__button {
+  color: #fff; }
+
 @media screen and (max-width: 900px) {
   .text__container {
     text-align: center;
@@ -134,10 +139,15 @@
   flex-direction: column;
   justify-content: center;
   width: 233px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-size: 42px;
+  align-items: center; }
   .modal__container .modal_text__container {
+    display: flex;
+    align-items: middle;
     max-width: 223px;
-    line-height: normal; }
+    line-height: normal;
+    text-align: center; }
     .modal__container .modal_text__container p {
       font-size: 12px;
       font-weight: 300; }
@@ -233,7 +243,8 @@
       position: relative;
       display: flex;
       flex-direction: column;
-      justify-content: space-between; }
+      justify-content: space-between;
+      height: 600px; }
       .about__us__container .team__card__container .card__container .card__row {
         width: 551px;
         height: 89px;
@@ -249,7 +260,7 @@
           display: flex;
           flex-direction: column;
           align-items: center;
-          margin-bottom: -47px; }
+          margin-bottom: -54px; }
           .about__us__container .team__card__container .card__container .card__row .card__items .name-container p {
             text-align: center;
             font-size: 16px; }
@@ -586,3 +597,6 @@ template {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
