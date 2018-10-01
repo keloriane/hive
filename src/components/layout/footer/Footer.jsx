@@ -5,6 +5,7 @@ import medium from './../../../assets/img/madium_icon.png'
 import linkedin from './../../../assets/img/linkedin_icon.png'
 import Modal from 'react-awesome-modal';
 
+
 const customStyles = {
   content : {
     top                   : '50%',
@@ -63,7 +64,7 @@ export default class Footer extends Component {
         <div className="footer__item">
           <div className="newsLetter">
             <button className="news-letter button" onClick={() => this.openModal()}>
-              NewsLetter
+            Subscribe 
             </button>
             <Modal 
                     visible={this.state.visible}
@@ -77,18 +78,13 @@ export default class Footer extends Component {
                     className="Modal__news"
                 >
                 <div className="modal__container">
-                <div className="modal_text__container">
-                  <p>Subscribe to our newsletter to stay up-to-date with all that's happening at HIVE in your e-mail.</p>
-                </div>
-                <div className="modal__input__container">
-                <p>Name</p><input type="text" className="modal__input" value="Name"/>
-                <p>Lastname</p><input type="text" className="modal__input" value="Lastname"/>
-                <p>Mail</p><input type="mail" className="modal__input" value="Email adress"/>
-                </div>
+                
+                <p>Newsletter</p>
                 <button className="signup__modal__button">
-                  <p>Signup</p>
+                  Subscribe
                 </button>
                 </div>
+              
                 </Modal >
           </div>
         </div>

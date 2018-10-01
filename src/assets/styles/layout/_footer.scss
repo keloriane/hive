@@ -60,12 +60,17 @@
   justify-content: center;
   width: 233px;
   margin: 0 auto;
+  font-size: 42px;
+  align-items: center;
   
-
-
+  
+  
   .modal_text__container{
+    display: flex;
+    align-items: middle;
     max-width: 223px;
     line-height: normal; 
+    text-align: center;
     p{
       font-size: 12px;
       font-weight: 300;

@@ -10,9 +10,9 @@ export default class AboutTeam extends Component {
         <div className="about__us__container right__bg">
         <Nav />
       <div className="about__us__wrapper" >
-         
         <AboutUs />
         <Team />
+        <Footer />
       </div>
       
       </div>

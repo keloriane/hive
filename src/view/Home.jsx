@@ -9,7 +9,6 @@ export default class Home extends Component {
     return (
       <div className="light__bg">
       <div className="home__container bg__container">
-          <Nav />
           <About />
           <Footer />
           </div>

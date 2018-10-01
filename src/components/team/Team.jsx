@@ -121,7 +121,7 @@ export default class Team extends Component {
                 <HoverImage src={quentin} alt="" hoverSrc={quentinHover}/>
                 <div className="icon__container">
                   <div className="mail"><a href=""><img src={mail} alt=""/></a></div>
-                  <div className="linkedin"><a href=""><img src={linkedin} alt=""/></a></div>
+                  <div className="linkedin"><a href="https://www.linkedin.com/in/louis-quentin-degroux-21007b120/"><img src={linkedin} alt=""/></a></div>
                 </div>
                 <div className="name-container">
                 <p>Quentin</p>
@@ -132,7 +132,7 @@ export default class Team extends Component {
                 <HoverImage src={guillaume} alt=""hoverSrc={guillaumeHover}/>
                 <div className="icon__container">
                   <div className="mail"><a href=""><img src={mail} alt=""/></a></div>
-                  <div className="linkedin"><a href=""><img src={linkedin} alt=""/></a></div>
+                  <div className="linkedin"><a href="https://www.linkedin.com/in/guillaume-veldekens-86918991/"><img src={linkedin} alt=""/></a></div>
                 </div>
                 <div className="name-container">
                 <p>Guillaume</p>
@@ -143,7 +143,7 @@ export default class Team extends Component {
                 <HoverImage src={sam} alt="" hoverSrc={samHover}/>
                 <div className="icon__container">
                   <div className="mail"><a href=""><img src={mail} alt=""/></a></div>
-                  <div className="linkedin"><a href=""><img src={linkedin} alt=""/></a></div>
+                  <div className="linkedin"><a href="https://www.linkedin.com/in/samuel-bermann-564737135/"><img src={linkedin} alt=""/></a></div>
                 </div>
                 <div className="name-container">
                 <p>Samuel</p>
@@ -157,7 +157,7 @@ export default class Team extends Component {
                 <HoverImage src={jimmy} alt="" hoverSrc={jimmyHover}/>
                 <div className="icon__container">
                   <div className="mail"><a href=""><img src={mail} alt=""/></a></div>
-                  <div className="linkedin"><a href=""><img src={linkedin} alt=""/></a></div>
+                  <div className="linkedin"><a href="https://www.linkedin.com/in/jimmy-goossens-a74761115/"><img src={linkedin} alt=""/></a></div>
                 </div>
                 <div className="name-container">
                 <p>Jimmy</p>
@@ -168,7 +168,7 @@ export default class Team extends Component {
                 <HoverImage src={cash} alt="" hoverSrc={cashHover}/>
                 <div className="icon__container">
                   <div className="mail"><a href=""><img src={mail} alt=""/></a></div>
-                  <div className="linkedin"><a href=""><img src={linkedin} alt=""/></a></div>
+                  <div className="linkedin"><a href="https://www.linkedin.com/in/cassandrevandeputte/"><img src={linkedin} alt=""/></a></div>
                 </div>
                 <div className="name-container">
                 <p>Cassandre</p>
@@ -179,7 +179,7 @@ export default class Team extends Component {
                 <HoverImage src={marin} alt="" hoverSrc={marinHover}/>
                 <div className="icon__container">
                   <div className="mail"><a href=""><img src={mail} alt=""/></a></div>
-                  <div className="linkedin"><a href=""><img src={linkedin} alt=""/></a></div>
+                  <div className="linkedin"><a href="https://www.linkedin.com/in/marin-stas-de-richelle-864227143/"><img src={linkedin} alt=""/></a></div>
                 </div>
                 <div className="name-container">
                 <p>Marin</p>
@@ -192,7 +192,7 @@ export default class Team extends Component {
                 <HoverImage src={pe} alt="" hoverSrc={peHover}/>
                 <div className="icon__container">
                   <div className="mail"><a href=""><img src={mail} alt=""/></a></div>
-                  <div className="linkedin"><a href=""><img src={linkedin} alt=""/></a></div>
+                  <div className="linkedin"><a href="https://www.linkedin.com/in/ptasiaux/"><img src={linkedin} alt=""/></a></div>
                 </div>
                 <div className="name-container">
                 <p>Paul-Emanuel</p>
@@ -203,7 +203,7 @@ export default class Team extends Component {
                 <HoverImage src={db} alt="" hoverSrc={dbHover}/>
                 <div className="icon__container">
                   <div className="mail"><a href=""><img src={mail} alt=""/></a></div>
-                  <div className="linkedin"><a href=""><img src={linkedin} alt=""/></a></div>
+                  <div className="linkedin"><a href="https://www.linkedin.com/in/antoine-de-brabandere-42ab16b5/"><img src={linkedin} alt=""/></a></div>
                 </div>
                 <div className="name-container">
                 <p>Antoine</p>
@@ -215,7 +215,7 @@ export default class Team extends Component {
                 <HoverImage src={mathias} alt="" hoverSrc={mathiasHover}/>
                 <div className="icon__container">
                   <div className="mail"><a href=""><img src={mail} alt=""/></a></div>
-                  <div className="linkedin"><a href=""><img src={linkedin} alt=""/></a></div>
+                  <div className="linkedin"><a href="https://www.linkedin.com/in/matias-gross-044795b8/"><img src={linkedin} alt=""/></a></div>
                 </div>
                 <div className="name-container">
                 <p>Mathias</p>
@@ -229,7 +229,7 @@ export default class Team extends Component {
                 <HoverImage src={aymeric} alt="" hoverSrc={aymericHover}/>
                 <div className="icon__container">
                   <div className="mail"><a href=""><img src={mail} alt=""/></a></div>
-                  <div className="linkedin"><a href=""><img src={linkedin} alt=""/></a></div>
+                  <div className="linkedin"><a href="https://www.linkedin.com/in/aymericktordeurs/"><img src={linkedin} alt=""/></a></div>
                 </div>
                 <div className="name-container">
                 <p>Aymeric</p>
@@ -240,7 +240,7 @@ export default class Team extends Component {
                 <HoverImage src={nico} alt="" hoverSrc={nicoHover}/>
                 <div className="icon__container">
                   <div className="mail"><a href=""><img src={mail} alt=""/></a></div>
-                  <div className="linkedin"><a href=""><img src={linkedin} alt=""/></a></div>
+                  <div className="linkedin"><a href="https://www.linkedin.com/in/nicolas-claise-46323028/"><img src={linkedin} alt=""/></a></div>
                 </div>
                 <div className="name-container">
                 <p>Nicolas</p>

@@ -76,6 +76,7 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      height: 600px;
 
     
     .card__row{
@@ -94,7 +95,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: -47px;
+        margin-bottom: -54px;
         .card__absolute{
          
         }
@@ -112,11 +113,8 @@
           margin: 0 auto;
           width: 50px;  
         }
-      
-        
-       
         img{
-          
+           
         }
       }
 
